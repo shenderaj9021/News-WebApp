@@ -5,7 +5,7 @@ export default class Newsitem extends Component {
         super();
     }
   render() {
-    let  {title,description,imageUrl,newsUrl,totalresults,author,date} = this.props;
+    let  {title,description,imageUrl,newsUrl,author,date} = this.props;
     return (
       <div>
             <div className="card" >
