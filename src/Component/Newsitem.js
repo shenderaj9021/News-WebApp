@@ -7,7 +7,7 @@ export default class Newsitem extends Component {
     return (
       <div>
             <div className="card" >
-                <img className="card-img-top" src= {!imageUrl?"https://media.istockphoto.com/photos/abstract-digital-news-concept-picture-id1290904409":imageUrl} alt="Card image cap"/>
+                <img className="card-img-top" src= {!imageUrl?"https://media.istockphoto.com/photos/abstract-digital-news-concept-picture-id1290904409":imageUrl} alt=""/>
                 <div className="card-body">
                   <h5 className="card-title"> {title} </h5>
                     <p className="card-text">{description}</p>

@@ -77,7 +77,7 @@ export default class News extends Component {
     return (
       <div className="container my-3">
         
-            <h2 className="text-center" style={{margin:35}}>NewsDaily - Tranding News </h2>
+            <h2 className="text-center" style={{margin:35}}>NewsDaily - {this.props.category} </h2>
              {this.state.loading && <Spiner />}
             <div className="row">
             {this.state.articles.map((element)=>{
